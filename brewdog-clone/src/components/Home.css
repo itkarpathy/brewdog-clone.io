@@ -1,0 +1,148 @@
+.home {
+  background-color: #fff;
+  padding-top: 100px;
+}
+
+.home__boxInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #ececec;
+}
+
+.home__boxInfoLeft {
+  display: flex;
+  align-items: center;
+  border-right: 2px solid lightgrey;
+  padding-right: 33px;
+}
+
+.box__infoMiddle {
+  display: flex;
+  align-items: center;
+  border-right: 2px solid lightgrey;
+  padding-right: 33px;
+  font-weight: 400;
+}
+
+.home__boxInfoLeft > .MuiSvgIcon-root {
+  margin-top: 2px;
+}
+
+.home__boxInfoLeft > h3 {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.home__boxInfoRight {
+  display: flex;
+  align-items: center;
+}
+
+.home__boxInfoRight > h3 {
+  border-bottom: 1px solid;
+  transition: 0.2s all ease-in-out;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.home__boxInfoRight > .MuiSvgIcon-root {
+  margin-top: 6px;
+}
+
+.home__boxInfoRight > h3:hover {
+  cursor: pointer;
+  color: #00afdb;
+}
+
+.banner {
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: cover;
+  background-image: url("http://images.ctfassets.net/b0qgo9rl751g/1WDLUus0kTLd3UWar9QULQ/b45b72cc590f4236bbff3d04f295fde9/punk-hero.jpg");
+}
+
+.banner__content {
+  color: #fff;
+  display: grid;
+  padding: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner__content > h1 {
+  font-size: 3.3rem;
+  text-transform: uppercase;
+  margin: 0px 0px 60px 0;
+}
+
+.banner__content > h2 {
+  font-weight: 500;
+}
+
+.banner__content > p {
+  font-size: 1.4rem;
+}
+
+.banner__buyBtn {
+  color: #fff !important;
+  font-size: 1.7rem;
+  border-bottom: 1px solid rgb(221, 216, 216);
+  cursor: pointer;
+  width: 200px;
+  margin: 80px auto;
+}
+
+.banner__buyBtn:hover {
+  border-bottom: none;
+}
+
+/* //bottom style:  */
+
+.home__bottom {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 0;
+  /* padding-left: 24px;
+  padding-right: 24px; */
+  --bg-opacity: 0.9;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.home__bottom > h1 {
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+}
+
+.home__bottom > img {
+  height: 300px;
+  min-width: 700px;
+  object-fit: contain;
+}
+
+.btn {
+  background-color: #000;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  max-width: 300px;
+  margin: 30px auto;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

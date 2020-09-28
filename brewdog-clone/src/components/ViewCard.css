@@ -1,0 +1,112 @@
+.viewCard {
+  display: flex;
+  justify-content: space-between;
+  height: 428px;
+  padding: 30px 30px;
+}
+
+.viewCard__main {
+  display: flex;
+}
+
+.viewCard__mainTitle {
+  margin-right: 30px;
+  min-width: 235px;
+  font-family: "EnglishGrotesque";
+  position: relative;
+}
+
+.viewCard__mainTitle > h1 {
+  font-size: 4rem;
+}
+
+.price__tag {
+  font-size: 30px;
+  padding-left: 25px;
+  position: absolute;
+  top: 74%;
+}
+
+.price__tag::after {
+  content: "";
+  display: block;
+  top: 146%;
+  left: 10%;
+  height: 3px;
+  background-color: #00afdb;
+  width: 89px;
+  position: absolute;
+}
+
+.viewCard__cicle {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.viewCard__cicle > li {
+  text-transform: uppercase;
+  margin-right: 3px;
+}
+
+.alc__circle {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border-radius: 189px;
+  padding: 21px 19px;
+  /* height: 25px; */
+  margin-top: 6px;
+  font-size: 21px;
+  letter-spacing: 0.8px;
+  width: 40px;
+}
+
+.viewCard__medium > img {
+  width: 167px;
+  height: 90%;
+  object-fit: contain;
+  padding: 15px 80px;
+}
+
+.vieward__info {
+  font-weight: 400;
+  flex: 0.3;
+}
+
+.viewCard__info > h2 {
+  font-family: "League-Gothic";
+  font-size: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  color: #000;
+}
+
+.viewCard__info > p {
+  font-family: "EnglishGrotesque";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.44;
+  margin-bottom: 20px;
+  color: #000;
+  float: left;
+  width: 100%;
+}
+
+.info__btn {
+  margin-top: 30px;
+  width: 300px;
+}
+
+.viewCard__maskName {
+  top: 14%;
+  left: 10%;
+  position: absolute;
+  font-size: 11rem;
+  text-transform: uppercase;
+  color: rgba(0, 175, 219, 0.2);
+  z-index: -2;
+}

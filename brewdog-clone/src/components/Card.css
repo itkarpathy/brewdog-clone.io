@@ -1,0 +1,42 @@
+.cards {
+  width: 100%;
+  margin: 0 10px auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  width: 100%;
+  padding: 15px 10px;
+  text-align: center;
+  margin-left: 10px;
+  height: 350px;
+}
+
+.card:hover {
+  background-color: #ececec;
+  cursor: pointer;
+}
+
+.card > img {
+  height: 120px;
+}
+
+.card__info > li {
+  font-size: 26px;
+}
+
+.card__btn {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.card__btn:hover {
+  background-color: #999;
+}

@@ -1,0 +1,131 @@
+.nav {
+  padding: 10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.nav__left {
+  display: flex;
+  align-items: center;
+  flex: 0.1;
+}
+
+.nav__left__links {
+  display: flex;
+}
+
+.nav__left__links li {
+  margin-right: 30px;
+  font-weight: 400 !important;
+  font-size: 22px;
+}
+
+.nav__left__links li:hover {
+  border-bottom: 3px solid black;
+  cursor: pointer;
+}
+
+.nav__logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.nav__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0.3;
+  /* max-width: 300px; */
+  padding-right: 40px;
+}
+
+.nav__search,
+.nav__login,
+.nav__basket {
+  display: flex;
+}
+
+.nav__search {
+  cursor: pointer;
+  align-items: center;
+}
+
+.nav__search > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 400 !important;
+  font-size: 1.2rem;
+}
+
+.nav__search > .MuiSvgIcon-root {
+  font-size: 1.5rem;
+  margin-top: 6px;
+  margin-left: 2px;
+}
+
+.nav__login {
+  align-items: center;
+  width: 140px;
+}
+
+.nav__login > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 400 !important;
+  font-size: 1.2rem;
+  margin-left: 15px;
+}
+
+.nav__login > .MuiSvgIcon-root {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav__basket {
+  display: flex;
+}
+
+.nav__basketLeft,
+.nav__basketRight {
+  display: flex;
+}
+
+.nav__basketRight {
+  cursor: pointer;
+}
+
+.nav__basketLeft {
+  align-items: center;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.nav__basketLeft > h3 {
+  margin-left: 2px;
+  font-weight: 400 !important;
+}
+
+.nav__basketCircle {
+  background-color: #000;
+  color: #fff;
+  border-radius: 999px;
+  font-size: 13px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-left: -9px;
+  z-index: 3;
+}

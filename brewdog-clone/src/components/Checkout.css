@@ -1,0 +1,57 @@
+.checkout {
+  padding: 130px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout__empty {
+  padding: 50px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.checkout__empty::before {
+  content: "BASKET";
+  position: absolute;
+  color: rgba(204, 204, 204, 0.2);
+  font-size: 20rem;
+  z-index: -2;
+  top: -33%;
+  left: -10%;
+  transform: translate(-3%, -5%);
+}
+
+.checkout__empty > h2 {
+  font-size: 3.4rem;
+  line-height: 1.6;
+}
+
+.checkout__empty > p {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.checkout__title {
+  text-transform: uppercase;
+  font-size: 4rem;
+  position: relative;
+  left: 2%;
+  transform: translateY(-7%);
+  padding: 42px 17px;
+}
+
+.checkout__title::before {
+  content: "BASKET";
+  display: block;
+  color: #f6f6f6;
+  font-size: 20rem;
+  letter-spacing: -1.7px;
+  line-height: 0.7;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 16rem;
+  top: -6%;
+  left: 3%;
+  z-index: -2;
+}
